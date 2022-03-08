@@ -1,7 +1,12 @@
 server:
   port: 9010
 
+
+
 spring:
+  application:
+    name: config-server-service
+    
   cloud:
     config:
       server:
